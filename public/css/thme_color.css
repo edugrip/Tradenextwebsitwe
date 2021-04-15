@@ -1,0 +1,313 @@
+html,
+
+
+.theme-light {
+  --color-secondary: #ffffff;
+  --color-secondary_6: #dddddd45;
+  --color-accent: #fd6f53;
+  --font-color: #000000;
+  --visibility: visible;
+  --visibility_2:  hidden;
+  --display:inline-block;
+  --display_2:none;
+}
+
+.theme-dark {
+  --color-primary: #ffaf00;
+  --color-secondary: #16181c;
+  --color-secondary_2: #383c40;
+  --color-accent: #12cdea;
+  --color-secondary_3: rgb(39, 11, 11);
+  --font-color: #ffffff;
+  --display:none;
+  --visibility: hidden;
+  --visibility_2: visible;
+  --display:none;
+  --display_2:inline-block;
+
+}
+.iq-banner 
+{
+  background-color: var(--color-secondary);
+}
+header .navbar-light .nav-item .nav-link
+{
+  color: var(--font-color);
+}
+.iq-blog-detail
+{
+  background-color: var(--color-secondary);
+}
+.iq-fancy-box
+{
+  background-color: var(--color-secondary);
+}
+.iq-accordion .ad-title
+{
+  background-color: var(--color-secondary_6);
+  color: var(--font-color) ;
+  
+}
+.contact-us form
+{
+  background-color: var(--color-secondary_6);
+  color: var(--font-color) ;
+}
+.timeline__content
+{
+  background-color: var(--color-secondary_6);
+  color: var(--font-color) ;
+}
+.light-bg
+{
+  background-color: var(--color-secondary);
+}
+header.menu-sticky
+{
+  background-color: var(--color-secondary_3);
+}
+header
+{
+  background-color: var(--color-secondary);
+ 
+}
+header.menu-sticky
+{
+  background-color: var(--color-secondary);
+}
+.wave-poistion
+{
+  display: var(--display_2); 
+}
+.list-inline li a
+{
+  color: var(--font-color);
+}
+.logo_2
+{
+  visibility: var(--visibility); 
+  display: var(--display); 
+
+  
+}
+.logo_1
+{
+  visibility: var( --visibility_2); 
+  display: var(--display_2); 
+  
+}
+h2, h5, h3 {
+  color: var(--font-color);
+}
+b {
+  color: var(--font-color);
+}
+p {
+  color: var(--font-color);
+}
+
+.post__content a
+{
+    color: var(--font-color);
+}
+.post__content p
+{
+    color: var(--font-color);
+}
+.info-box-content
+{
+    color: var(--font-color);
+}
+.info-box-content h5
+{
+    color: var(--font-color);
+}
+.nk-block-features
+{
+    color: var(--font-color);
+}
+.timeline__content p
+{
+    color: var(--font-color);
+}
+.nk-block-features h5
+{
+    color: var(--font-color);
+}
+.heading-title
+{
+    color: var(--font-color);
+}
+.heading-text
+{
+    color: var(--font-color);
+}
+.crumina-module li
+{
+    color: var(--font-color);
+}
+.bg-dotted-map
+{
+    background: var(--color-secondary);
+}
+.info-box--style4
+{
+    background: var(--color-secondary_2);
+   
+}
+input.input--dark
+{
+    background: var(--color-secondary_2);
+}
+.form--dark
+{
+    background: var(--color-secondary_2);
+    border: 1px solid #ff9800;
+}
+.form--dark .input-label
+{
+    color: var(--font-color);
+}
+input.input--dark {
+   
+    color: #a1abbd;
+    border: 2px solid #ff9800;
+}
+.input-with-icon 
+{
+    color: var(--font-color);
+    border: 1px solid #ff9800;
+}
+.bg-2
+{
+    background: none;
+}
+.header.headroom--not-top
+{
+    background: var(--color-secondary);
+}
+.primary-menu-menu > li:hover
+{
+    background: var(--color-secondary);
+    color: var(--font-color);
+}
+.crumina-flying-balls
+{
+    background: var(--color-secondary);
+
+}
+.footer
+{
+    background: var(--color-secondary);
+}
+.footer
+{
+    color: var(--font-color);
+}
+.footer a
+{
+    color: var(--font-color);
+}
+.socials--white .woox-icon
+{
+    color: var(--font-color);
+}
+.footer h5
+{
+    color: var(--font-color);
+}
+
+.container_2 {
+  background: var(--color-secondary);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container_2 p {
+    background: var();
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.container_2 h1 {
+  color: var(--font-color);
+  font-family: sans-serif;
+}
+.container_2 button {
+  color: var(--font-color);
+  padding: 10px;
+  border: 0;
+  
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 29px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 32px;
+  width: 32px;
+  left: 0px;
+  bottom: 4px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  box-shadow: 0 0px 15px #2020203d;
+  background: white url('https://i.ibb.co/FxzBYR9/night.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(24px);
+  -ms-transform: translateX(24px);
+  transform: translateX(24px);
+  background: white url('https://i.ibb.co/7JfqXxB/sunny.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
